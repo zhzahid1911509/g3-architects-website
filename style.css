@@ -149,7 +149,16 @@ nav li a:hover {
         justify-content: space-evenly;
     }
 
+    .features-container{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
 
+    .features-images{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:960px) {
