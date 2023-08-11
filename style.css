@@ -28,6 +28,10 @@
     color: #131313;
 }
 
+.section-title span{
+    color:#FF900E;
+}
+
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -56,11 +60,15 @@ nav li a {
     color: #424242;
 }
 
+nav li a:hover {
+    color: #FF900E;
+}
+
 /* banner styles */
 .banner-content {
     max-width: 100%;
     text-align: center;
-    margin: 24px auto;
+    margin: 30px auto;
 }
 
 .banner-title {
@@ -69,11 +77,46 @@ nav li a {
     color: #131313;
 }
 
+.banner-description {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
 .banner img {
     margin-top: 20px;
     width: 100%;
 }
 
+/* features styles */
+.our-features{
+    margin-top: 240px;
+    height: 100vh;
+}
+.features-container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.features-heading{
+    font-size: 1.7rem;
+}
+
+.s1{
+    color:#727272;
+}
+
+.s2{
+    color:#FF900E;
+}
 @media screen and (max-width:576px) {
     .section-title{
         font-size: 2rem;
